@@ -1,0 +1,10 @@
+[filament]
+name = curaengine_plastique_PLA_I3MM
+diameter = 1.75
+multiplierPercent = 100
+printingTemperature = 200
+enableCooling = True
+bedTemperature = 55
+fanSpeedMin = 80
+fanSpeedMax = 100
+minimalLayerTime = 15

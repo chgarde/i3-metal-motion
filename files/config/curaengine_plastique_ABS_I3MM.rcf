@@ -1,0 +1,10 @@
+[filament]
+name = curaengine_plastique_ABS_I3MM
+diameter = 1.75
+multiplierPercent = 100
+printingTemperature = 245
+enableCooling = True
+bedTemperature = 90
+fanSpeedMin = 0
+fanSpeedMax = 0
+minimalLayerTime = 15

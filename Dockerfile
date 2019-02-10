@@ -21,6 +21,8 @@ WORKDIR /opt/RepetierHost/
 RUN sed -i 's/libmono-winforms2.0-cil/libmono-system-windows-forms4.0-cil/' configureFirst.sh
 RUN sed -i 's/apt-get/apt-get -y --no-install-recommends/' configureFirst.sh
 RUN /opt/RepetierHost/configureFirst.sh
+RUN mkdir -p /root/files
+VOLUME /root/files
 
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT /entrypoint.sh

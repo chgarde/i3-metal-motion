@@ -1,0 +1,10 @@
+[filament]
+name = curaengine_plastique_G-FIL_I3MM
+diameter = 1.75
+multiplierPercent = 100
+printingTemperature = 235
+enableCooling = True
+bedTemperature = 70
+fanSpeedMin = 0
+fanSpeedMax = 0
+minimalLayerTime = 15
